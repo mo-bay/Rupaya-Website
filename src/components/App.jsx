@@ -10,6 +10,7 @@ import Partnerships from "./Partnerships";
 import Technology from "./Technology";
 import Community from "./Community";
 import Terms from "./Terms";
+import Swap from "./Swap";
 
 
 
@@ -26,6 +27,7 @@ function App() {
             <Route path="/Technology" element={<Technology />} />
             <Route path="/Community" element={<Community />} />
             <Route path="/terms" element={<Terms />} />
+            <Route path="=/swap" element={<Swap />} />
         </Routes> 
         <Footer />
         </div>
